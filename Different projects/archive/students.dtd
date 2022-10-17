@@ -1,0 +1,10 @@
+<!ELEMENT students (student+)>
+<!ELEMENT student (id, name, last_name, group, marks)+>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT marks (mark_math, mark_language, mark_IT)>
+<!ELEMENT mark_math (#PCDATA)>
+<!ELEMENT mark_language (#PCDATA)>
+<!ELEMENT mark_IT (#PCDATA)>

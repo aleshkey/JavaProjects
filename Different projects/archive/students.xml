@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE students SYSTEM "students.dtd">
+<students>
+<student>
+    <id>12170054</id>
+    <name>Alexey</name>
+    <last_name>Oleshkevich</last_name>
+    <group>121701</group>
+    <marks>
+        <mark_math>8</mark_math>
+        <mark_language>10</mark_language>
+        <mark_IT>9</mark_IT>
+    </marks>
+</student>
+
+<student>
+<id>456789</id>
+<name>lesdf</name>
+<last_name>sersdf</last_name>
+<group>4546</group>
+<marks>
+    <mark_math>8</mark_math>
+    <mark_language>4</mark_language>
+    <mark_IT>10</mark_IT>
+</marks>
+</student>
+</students>
