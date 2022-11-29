@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>book</title>
+</head>
+<body>
+
+<div>
+    <span th:text="${book.getTitle()}"></span>,
+    <span th:text="${book.getAuthor()}"></span>,
+    <span th:text="${books.getYearOfRelease()}"></span><br/>
+
+
+</div>
+
+<hr/>
+
+<a th:href="@{/books/{id}/edit(id=${book.getBook_id()})}">Edit</a>
+
+<br/><br/>
+
+<a th:href="@{/books/{id}/delete-book(id=${book.getBook_id()})}">Delete</a>
+
+</body>
+</html>
