@@ -1,0 +1,1 @@
+{town='lida', street='dadfa', house='11', index=231300}{town='minsk', street='kolas', house='28', index=456789}
